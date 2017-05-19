@@ -35,7 +35,6 @@ body {
 h1 {
     font-family: "Courier New", Courier, monospace;
     text-align: center;
-    border-bottom: 2px solid #FFFF;
     color: #FFFF;
     font-size: 30px;
     font-weight: normal;
@@ -46,4 +45,34 @@ h2{
   color: #FFFF;
   font-size: 30px;
   font-weight: normal;
+}
+
+
+/* This creates a centered horizontal navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003;
+  text-align: center;
+}
+
+
+ li {
+  display: inline
+
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
 }
