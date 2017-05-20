@@ -11,17 +11,6 @@ body {
     background-color: #808080; /* GRAY */
     color: black;
     padding: 3px;
-
-
-       /* for background image */
-    /*
-    background-image: url("code.jpg");
-    background-size: 500px 700px;
-    background-repeat: no-repeat;
-
-    background-position: 67% -25%;
-    */
-
 }
 
 #main {
@@ -91,4 +80,55 @@ ul.bottomPage {
   padding: 0 0 10px;
   width: 100%;
   box-sizing: border-box;
+}
+
+
+
+/* for social media buttons */
+a.fa {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border:2px solid #ddd; /* add border to the buttons */
+  box-shadow: 0 3px 3px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 27px;
+  -moz-border-radius:27px;
+  -webkit-border-radius:27px;
+}
+
+a.fa:hover {
+  opacity: 0.7;
+}
+
+a.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+a.fa-instagram {
+background: #125688;
+color: white;
+}
+
+a.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+
+/*This is for the picture of me */
+/* Note you need the img tag to access the class */
+img.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
