@@ -54,7 +54,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #444;
   text-align: center;
 }
 
@@ -75,4 +74,21 @@ li a {
 
 li a:hover {
   background-color: #A9A9A9;
+}
+
+
+/* the strategy here is to have a default "unordered list" class with
+* common attributes, then anything else you want to add, make a class
+* that inherits from the default ul
+*/
+ul.backgroundColor-class {
+background-color: #444;
+}
+
+ul.bottomPage {
+  position: fixed;
+  top: 90vh; z-index:99;
+  padding: 0 0 10px;
+  width: 100%;
+  box-sizing: border-box;
 }

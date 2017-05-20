@@ -20,7 +20,7 @@
       <h1>Christopher Sanchez</h1>
 
         <!-- for horizontal navigation bar -->
-        <ul>
+        <ul class = "backgroundColor-class">
           <li><a class="active" href="#home">Home</a></li>
           <li><a href="#news">News</a></li>
           <li><a href="contact.html" "#contact">Contact</a></li>
@@ -54,12 +54,23 @@
    <style>
    /* for social media buttons */
    .fa {
-     padding : 20px;
-     font-size: 30px;
+     display: inline-block;
+     position: relative;
+     cursor: pointer;
      width: 50px;
-     text-align: center;
+     height: 50px;
+     border:2px solid #ddd; /* add border to the buttons */
+     box-shadow: 0 3px 3px #999;
+     padding: 0px;
      text-decoration: none;
-     margin: 5px 2px;
+     text-align: center;
+     color: #fff;
+     font-size: 25px;
+     font-weight: normal;
+     line-height: 2em;
+     border-radius: 27px;
+     -moz-border-radius:27px;
+     -webkit-border-radius:27px;
    }
 
    .fa:hover {
@@ -72,8 +83,13 @@
    }
    </style>
 
-    <a href="https://www.youtube.com/channel/UChfFb_bkMQtkOJXE9whCfDw" "#" class="fa fa-youtube"></a>
-
+<div >
+      <ul class="bottomPage">
+        <li>
+          <a href="https://www.youtube.com/channel/UChfFb_bkMQtkOJXE9whCfDw" "#" class="fa fa-youtube"></a>
+        <li>
+     </ul>
+</div>
 
 </body>
 
