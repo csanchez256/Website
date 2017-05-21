@@ -221,13 +221,23 @@ img.resize {
 }
 */
 
-img.resize{
-height: auto;
-width: auto;
-max-width: 100%;
-max-height: 100%;
-
+img.resize {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
+
+img.boxShadow {
+  /* horiz shadow | vert shadow | blur | color */
+  box-shadow: 11px 11px 8px #aaa;
+}
+
+img.borderRad {
+  border-radius: 10px;
+}
+
+
+/*==========================================*/
 
 
 /*==========================================*/
