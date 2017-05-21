@@ -36,6 +36,13 @@ h2{
   font-weight: normal;
 }
 
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: normal;
+}
+
 
 /* This creates a centered horizontal navigation bar */
 ul {
@@ -127,8 +134,35 @@ color: white;
 
 /*This is for the picture of me */
 /* Note you need the img tag to access the class */
+/*
 img.centerImage {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+*/
+img {
+  display:block
+}
+
+
+/* Wrapping text around an image with CSS is easy. You simply float the image
+* to the left or the right, and apply appropriate margins so that the text
+* doesn’t smash up next to the image.
+* Read more: http://html.com/attributes/img-align/#ixzz4hf7i07KH
+*/
+img.wrap{
+  max-width: 100%;
+  margin: 30px 25px;
+}
+
+img.alignRight {
+  float: right;
+  margin-left: 300px;
+}
+
+
+img.alignLeft {
+  float: left;
+  margin-left: 100px;
 }
