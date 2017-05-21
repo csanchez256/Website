@@ -21,6 +21,9 @@
   }*/
 
   </style>
+
+
+  <script type="text/javascript" src="quoteGenerator.js"></script>
 </head>
 
 <body>
@@ -29,7 +32,7 @@
       <h1>Christopher Sanchez</h1>
 
         <!-- for horizontal navigation bar -->
-        <ul class = "backgroundColor-class">
+        <ul class = "navBarColor-class">
           <li><a class="active" href="#home">Home</a></li>
           <li><a href="#news">News</a></li>
           <li><a href="contact.html" "#contact">Contact</a></li>
@@ -40,8 +43,10 @@
 
    <p></p>
 
+   <div class="coolLetters">Inspirational <br> quote <br> here</div>
 
-<div >
+
+  <div >
       <ul class="bottomPage">
         <li>
           <a href="https://www.youtube.com/channel/UChfFb_bkMQtkOJXE9whCfDw" "#" class="fa fa-youtube"></a>
@@ -49,14 +54,16 @@
           <a href="https://twitter.com/csanchez505?lang=en" "#" class="fa fa-twitter"></a>
         <li>
      </ul>
-</div>
+   </div>
 
 
 
 
 
+<!--
 <div class="wrapper">
   <img class="box " src ="flower3.jpg"></img>
+-->
 
 </div>
 
@@ -69,7 +76,7 @@ body {
 }
 */
 
-
+/*
 .wrapper {
   display: grid;
   grid-template-columns:300px 300px 300px;
@@ -88,12 +95,18 @@ body {
 
   width: 100%;
   height: auto;
+  */
 
 }
-
-
 </style>
 
-</body>
+<script>
+document.getElementById('i').innerHTML = quotes[0];
+</script>
 
+<div>
+<p>  <span id="i" ></span></p>
+</div>
+
+</body>
 </html>
