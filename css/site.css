@@ -236,6 +236,7 @@ img.borderRad {
 
 /*=========================================
 * These are transparent boxes
+* may not use it after all
 ==========================================*/
 .transbox {
 
@@ -291,5 +292,6 @@ img.borderRad {
   font-size: 50px;
   text-align: center;
   vertical-align: middle;
+  color: white;
 
 }
