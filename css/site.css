@@ -5,15 +5,6 @@
 /* Syntax for css */
 /* selector { property:value; property: value;} */
 
-/*
-body {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
-    font-size: 16px;
-    background-color: #808080;
-    color: black;
-    padding: 3px;
-}*/
-
 body {
   /* all this stuff is for resizable full screen background */
      background-image: url("ocean.jpg");
@@ -178,15 +169,6 @@ color: white;
 }
 
 
-/*This is for the picture of me on the "About" page*/
-/* Note you need the img tag to access the class */
-/*
-img.centerImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
 img {
   display:block;
 }
@@ -218,8 +200,6 @@ img.center {
   margin-right: auto;
   max-width: auto;
   max-height: auto;
-
-
 }
 
 img.grayScale {
