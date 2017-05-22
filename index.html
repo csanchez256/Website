@@ -33,13 +33,33 @@
           <li><a href= "aboutMe.html" "#about" >About</a></li>
         </ul>
 
-  <br><br><br><br>
+    <br><br><br><br>
 
-
+<!--
     <div class="FrederickaTheGreatFont"> "A bird sitting on a tree branch is never <br> afraid of the branch breaking, because
       <br> her trust is not on the branch, but on
       <br> her own wings"  -?
     </div>
+-->
+    <br><br><br><br>
+    <div class="FrederickaTheGreatFont">
+      <p id= "textFromArray"></p>
+    </div>
+
+
+
+
+    <script>
+    // here's a bit of JAVASCRIPT to display random inspirational quotes on the home page
+    var text = "";
+    var i = Math.floor(Math.random() * 3); //random number from 0 to ... n (exclusive)
+    /*
+    for (i = 0; i < quotes.length; i++){
+      text += quotes[i] + "<br>";
+    }*/
+    text = quotes[i];
+    document.getElementById("textFromArray").innerHTML = text;
+    </script>
 
     <div >
       <ul class="bottomPage">
@@ -53,13 +73,6 @@
     </div>
   </div>
 
-<script>
-document.getElementById('i').innerHTML = quotes[0];
-</script>
-
-  <div>
-    <p>  <span id="i" ></span></p>
-  </div>
 
 </body>
 </html>
