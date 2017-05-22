@@ -95,7 +95,6 @@ ul {
 li a {
   display: inline-block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 
@@ -116,6 +115,7 @@ ul.navBarColor-class {
  font-size: 20px;
  background-color: #444;
  opacity: 0.5; filter: alpha(opacity=50);
+ box-shadow: 10px 10px 5px grey;
 }
 
 ul.bottomPage {
@@ -218,14 +218,6 @@ img.grayScale {
   filter: grayscale(30%);
 }
 
-/*
-img.resize {
-
-  max-width: 100%;
- height: auto;
- width: auto\9;
-}
-*/
 
 img.resize {
   width: auto;
@@ -242,13 +234,30 @@ img.borderRad {
   border-radius: 10px;
 }
 
+/*=========================================
+* These are transparent boxes
+==========================================*/
+.transbox {
 
-/*==========================================*/
+  width: 500px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.3;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+
+  /* centers the block */
+  display: block;
+  margin: 0 auto;
+}
 
 
-/*==========================================*/
+/*==========================================
+ * These are special fonts found on the
+ * internet
+==========================================*/
 
 
+/* this one has a cool glowy look */
 .coolLetters {
   text-align: center;
   font-size: 6.5em; /* means "emphemeral unit" which is relative to the current font size. */
@@ -264,6 +273,7 @@ img.borderRad {
   text-shadow: 0px 0px 10px #fff
 }
 
+
 .overlappingSymbols {
   position: absolute;
   left: 20px;
@@ -274,5 +284,12 @@ img.borderRad {
   letter-spacing: -7px;
   font-weight: 70;
   text-shadow: 0px 0px 10px #fff
+}
+
+.FrederickaTheGreatFont {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
 
 }
