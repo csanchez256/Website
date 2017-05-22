@@ -39,8 +39,9 @@ body {
     border-radius: 0 0 5px 5px;
 }
 
+/* "FreeMono" , monospace; is the other option */
 h1{
-    font-family:  "FreeMono" , monospace;
+    font-family:  "Courier New", Courier, monospace; /* for google chrome */
     text-align: center;
     color: #FFFFFF;
     font-size: 40px;
@@ -52,6 +53,7 @@ h2{
   color: #FFFF;
   font-size: 30px;
   font-weight: normal;
+  text-align: center;
 }
 
 h4 {
@@ -111,7 +113,7 @@ li a:hover {
 * that inherits from the default ul
 */
 ul.navBarColor-class {
- font-family: "FreeMono" , monospace;
+ font-family: "Courier New", Courier, monospace;
  font-size: 20px;
  background-color: #444;
  opacity: 0.5; filter: alpha(opacity=50);
