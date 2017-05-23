@@ -7,9 +7,10 @@
   <title> Home </title>
 
   <link href="css/site.css" rel="stylesheet"> <!-- this links all of your css -->
+  <link href="css/extraStyles.css" rel="stylesheet">
 
   <!-- totally awesome font -->
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Amatic+SC:700" rel="stylesheet">
   <!-- null symbol -->
     <div class="overlappingSymbols"> &#8709</div>
 
@@ -33,20 +34,26 @@
           <li><a href= "aboutMe.html" "#about" >About</a></li>
         </ul>
 
-    <br><br><br>
-
 <!--
     <div class="FrederickaTheGreatFont"> "A bird sitting on a tree branch is never <br> afraid of the branch breaking, because
       <br> her trust is not on the branch, but on
       <br> her own wings"  -?
     </div>
 -->
-    <br><br><br>
+    <br><br>
     <div class="FrederickaTheGreatFont">
       <p id= "textFromArray"></p>
     </div>
 
+
+    <img src="me.jpg" class="img-circle  grayScale2 center" alt="description" height="200" width="200">
+
+    <div class="AmaticSC wrap alignRight" >
+        -My goal here is to show off what I can do with a text editor and inspiration. <br>
+        If you like what you see, Please leave a comment, send me an email, or subscribe to my social media <br>
+    </div>
     <script>
+
     // here's a bit of JAVASCRIPT to display random inspirational quotes on the home page
     var text = "";
     var i = Math.floor(Math.random() * 3); //random number from 0 to ... n (exclusive)

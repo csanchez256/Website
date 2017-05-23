@@ -1,0 +1,27 @@
+/*************************************************************
+* Christopher Sanchez; 2017
+*************************************************************/
+
+
+blockquote {
+  background-color: 	#778899;
+  width: 550px;
+  height: 90px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+
+blockquote.addCurlys:before {
+    content: "{";
+    font-size:10em;
+}
+blockquote.addCurlys:after {
+    content: "}";
+    font-size:10em;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
