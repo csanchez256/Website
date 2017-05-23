@@ -4,7 +4,7 @@
 
 <head>
   <!-- This title will show up on browser tab -->
-  <title>Santos</title>
+  <title> Home </title>
 
   <link href="css/site.css" rel="stylesheet"> <!-- this links all of your css -->
 
@@ -21,11 +21,10 @@
 </head>
 
 <body>
-
-<div id="main">
-  <h1 style="text-align:center">
-    Christ&#8709pher S&#8710nchez
-  </h1>
+  <div id="main">
+    <h1 style="text-align:center">
+     Christ&#8709pher S&#8710nchez
+    </h1>
         <!-- for horizontal navigation bar -->
         <ul class = "navBarColor-class">
           <li><a class="active" href="#home">Home</a></li>
@@ -34,11 +33,29 @@
           <li><a href= "aboutMe.html" "#about" >About</a></li>
         </ul>
 
-  <br><br><br><br>
+    <br><br><br>
 
+<!--
+    <div class="FrederickaTheGreatFont"> "A bird sitting on a tree branch is never <br> afraid of the branch breaking, because
+      <br> her trust is not on the branch, but on
+      <br> her own wings"  -?
+    </div>
+-->
+    <br><br><br>
+    <div class="FrederickaTheGreatFont">
+      <p id= "textFromArray"></p>
+    </div>
 
-<div class="FrederickaTheGreatFont"> "A bird sitting on a tree branch is never <br> afraid of the branch breaking, because <br> her trust is not on the branch, but on <br> her own wings"  -?</div>
-  <div >
+    <script>
+    // here's a bit of JAVASCRIPT to display random inspirational quotes on the home page
+    var text = "";
+    var i = Math.floor(Math.random() * 3); //random number from 0 to ... n (exclusive)
+
+    text = quotes[i];
+    document.getElementById("textFromArray").innerHTML = text;
+    </script>
+
+    <div >
       <ul class="bottomPage">
         <li>
           <a href="https://www.youtube.com/channel/UChfFb_bkMQtkOJXE9whCfDw" "#" class="fa fa-youtube"></a>
@@ -46,18 +63,8 @@
           <a href="https://twitter.com/csanchez505?lang=en" "#" class="fa fa-twitter"></a>
           <a href="https://androgynousdetectiverunaway.tumblr.com/" "#" class="fa fa-tumblr"></a>
         <li>
-     </ul>
-   </div>
-</div>
-
-
-<script>
-document.getElementById('i').innerHTML = quotes[0];
-</script>
-
-<div>
-<p>  <span id="i" ></span></p>
-</div>
-
+      </ul>
+    </div>
+  </div>
 </body>
 </html>

@@ -5,15 +5,6 @@
 /* Syntax for css */
 /* selector { property:value; property: value;} */
 
-/*
-body {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
-    font-size: 16px;
-    background-color: #808080;
-    color: black;
-    padding: 3px;
-}*/
-
 body {
   /* all this stuff is for resizable full screen background */
      background-image: url("ocean.jpg");
@@ -39,8 +30,9 @@ body {
     border-radius: 0 0 5px 5px;
 }
 
+/* "FreeMono" , monospace; is the other option */
 h1{
-    font-family:  "FreeMono" , monospace;
+    font-family:  "Courier New", Courier, monospace; /* for google chrome */
     text-align: center;
     color: #FFFFFF;
     font-size: 40px;
@@ -52,6 +44,7 @@ h2{
   color: #FFFF;
   font-size: 30px;
   font-weight: normal;
+  text-align: center;
 }
 
 h4 {
@@ -97,7 +90,6 @@ li a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 
 
@@ -111,7 +103,7 @@ li a:hover {
 * that inherits from the default ul
 */
 ul.navBarColor-class {
- font-family: "FreeMono" , monospace;
+ font-family: "Courier New", Courier, monospace;
  font-size: 20px;
  background-color: #444;
  opacity: 0.5; filter: alpha(opacity=50);
@@ -176,15 +168,6 @@ color: white;
 }
 
 
-/*This is for the picture of me on the "About" page*/
-/* Note you need the img tag to access the class */
-/*
-img.centerImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
 img {
   display:block;
 }
@@ -216,8 +199,6 @@ img.center {
   margin-right: auto;
   max-width: auto;
   max-height: auto;
-
-
 }
 
 img.grayScale {
@@ -296,7 +277,7 @@ img.borderRad {
 
 .FrederickaTheGreatFont {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   vertical-align: middle;
   color: white;
