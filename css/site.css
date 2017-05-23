@@ -39,6 +39,17 @@ h1{
     font-weight: normal;
 }
 
+/* with underline */
+h1-no-center {
+  font-family:  "Courier New", Courier, monospace; /* for google chrome */
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: normal;
+  text-decoration: none;
+  border-bottom: solid;
+  border-bottom-width: 1px; /* You need this to change thickness of line */
+}
+
 h2{
   font-family: "FreeMono" , monospace;
   color: #FFFF;
@@ -227,7 +238,7 @@ img.resize {
 
 img.boxShadow {
   /* horiz shadow | vert shadow | blur | color */
-  box-shadow: 11px 11px 8px #aaa;
+  box-shadow: 10px 10px 20px #505050;
 }
 
 img.borderRad {

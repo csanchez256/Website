@@ -5,8 +5,8 @@
 
 blockquote {
   background-color: 	#778899;
-  width: 550px;
-  height: 90px;
+  /*width: 550px;
+  height: 90px;*/
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
@@ -24,4 +24,8 @@ blockquote.addCurlys:after {
 
 .img-circle {
     border-radius: 50%;
+}
+
+.block-indent {
+  display: block;
 }
