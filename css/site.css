@@ -130,7 +130,7 @@ ul.bottomPage {
 
 /* for social media buttons */
 a.fa {
-  display: inline-bloc;
+  display: inline-block;
   position: relative;
   cursor: pointer;
   width: 50px;
@@ -157,8 +157,6 @@ a.fa:hover {
 a.fa-youtube {
   /* background: #bb0000;*/
   color: white;
-
-
 }
 
 a.fa-instagram {
@@ -301,7 +299,7 @@ img.borderRad {
 .AmaticSC {
  font-family: 'Amatic SC', cursive;
  font-size: 25px;
- text-align: center;
+ /* text-align: center; */
  vertical-align: middle;
  color: black;
 
